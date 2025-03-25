@@ -1,6 +1,6 @@
 const BASE_URL = 'https://jsonplaceholder.typicode.com/posts';
 
-export async function getposts() {
+export async function getPosts() {
     try {
         const res =await fetch(BASE_URL);
         if (!res.ok) {
